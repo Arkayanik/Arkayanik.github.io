@@ -1,0 +1,68 @@
+{
+  "productList": [
+    {
+      "productName": "Lenovo Yoga Slim 7 Pro",
+      "brand": "Lenovo",
+      "releaseDate": "2021-09-07T16:00:00.000Z",
+      "condition": "Brand New",
+      "price": 4599,
+      "quantity": 5,
+      "id": 1
+    },
+    {
+      "productName": "MacBook Air M1",
+      "brand": "Apple",
+      "releaseDate": "2020-11-16T16:00:00.000Z",
+      "condition": "Brand New",
+      "price": 4599,
+      "quantity": 15,
+      "id": 2
+    },
+    {
+      "productName": "ROG Zephyrus G14",
+      "brand": "Asus",
+      "releaseDate": "2021-05-25T16:00:00.000Z",
+      "condition": "Brand New",
+      "price": 4788,
+      "quantity": 10,
+      "id": 3
+    },
+    {
+      "productName": "XPS 13 (9310)",
+      "brand": "Dell",
+      "releaseDate": "2020-09-28T16:00:00.000Z",
+      "condition": "Brand New",
+      "price": 5600,
+      "quantity": 10,
+      "id": 4
+    },
+    {
+      "productName": "HP Spectre x360",
+      "brand": "HP",
+      "releaseDate": "2021-10-08T16:00:00.000Z",
+      "condition": "Brand New",
+      "price": 3699,
+      "quantity": 5,
+      "id": 5
+    },
+    {
+      "productName": "Acer Swift X",
+      "brand": "Acer",
+      "releaseDate": "2021-10-05T16:00:00.000Z",
+      "condition": "Brand New",
+      "price": 4299,
+      "quantity": 10,
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

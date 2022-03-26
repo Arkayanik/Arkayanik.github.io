@@ -1,0 +1,46 @@
+<h1 mat-dialog-title>Product Form</h1>
+<div mat-dialog-content>
+    <form [formGroup]="productForm">
+        <mat-form-field appearance="outline">
+            <mat-label>Laptop</mat-label>
+            <input formControlName="productName" matInput placeholder="Name">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Brand</mat-label>
+            <mat-select formControlName="brand" placeholder="Brand">
+                <mat-option value="Apple">Apple</mat-option>
+                <mat-option value="Lenovo">Lenovo</mat-option>
+                <mat-option value="Asus">Asus</mat-option>
+                <mat-option value="Dell">Dell</mat-option>
+                <mat-option value="Acer">Acer</mat-option>
+                <mat-option value="HP">HP</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Release Date</mat-label>
+            <input formControlName="releaseDate" matInput [matDatepicker]="picker">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+        
+        <h3>Condition</h3>
+        <mat-radio-group formControlName="condition" class="example-radio-group">
+            <mat-radio-button class="example-radio-button" *ngFor="let condition of conditionList" [value]="condition">
+                {{condition}}
+            </mat-radio-button>
+        </mat-radio-group>
+        
+        <mat-form-field appearance="outline">
+            <mat-label>Price</mat-label>
+            <input formControlName="price" matInput type="number" placeholder="Price">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Quantity</mat-label>
+            <input formControlName="quantity" matInput type="number" placeholder="Quantity">
+        </mat-form-field>
+    </form>
+</div>
+<div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button color="primary" (click)="actionButton()">{{actionName}}</button>
+    <button mat-raised-button color="warn" mat-dialog-close>Cancel</button>
+</div>
