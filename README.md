@@ -1,6 +1,7 @@
 # ProductRecordsApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+It is a web based application with CRUD implentation of laptop products.
 
 ## Development server
 
