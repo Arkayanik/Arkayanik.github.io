@@ -10,6 +10,8 @@ It is a web based application with CRUD implentation of laptop products.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+Run `json-server --watch resources-db.json` for a json server. Navigate to `http://localhost:3000/productList`.
+
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Image References of web application
